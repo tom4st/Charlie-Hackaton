@@ -32,6 +32,28 @@ html {
   font-size: 75%;
 }
 
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.description{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  text-align: center;
+  font-size: 250%;
+}
+
+.disclaimer{
+  
+  color: #fff;
+  position: absolute;
+  right: 50%;
+  bottom:0%;
+  font-size: 75%;
+}
+
 .menu ul {
   display: inline-flex;
   margin: -20px;

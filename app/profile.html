@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Welcome</title>
+  <title>Profile</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,21 +27,34 @@
 </head>
 
 <body background="img/dbz.jpg">
-  
   <nav class = "nav-bar">
     <div class="container">
       <h1> Welcome to Z Warriors </h1>
-
+      <div id = "dbzlogo" style="position:absolute; width:100%; height:100%" >
+      </div>
+      <div class="menu">
+        <ul><!--
+          <li class="audioSettings">
+            <embed height="60" type="audio/midi" width="144" src="audio.mp3" volume="60" loop="false" autostart="false" />
+          </li>-->
+        </ul>
   </nav>
- 
+  
   <div class = "container">
       <div class = "description">
         <p> Do you have the balls to fight!?</p>
-        <a href="profile.html" class="btn btn-danger" role="button">Go to the app</a>
+        <button type="submit" class="btn btn-danger" href="profile.html">Go to the app</button>
+        <p class = "disclaimer"> Use of Mask is mandatory in our fights! </p>
       </div>
-      <div class = "disclaimer">
-      <p> Use of Mask is mandatory in our fights! </p>
-      </div>
+<!--
+      <div class = "name">
+        <form id="userName-form" >
+          <label>Choose your name: </label>
+          <input type="text" class="form-control" id="name-input" placeholder="Enter your name">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        
+      </div>-->
   </div>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
