@@ -39,7 +39,7 @@ h1 {
 
 .description{
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 25%;
   text-align: center;
   font-size: 250%;
@@ -50,7 +50,7 @@ h1 {
   color: #fff;
   position: absolute;
   right: 50%;
-  bottom:0%;
+  bottom:   0%;
   font-size: 75%;
 }
 
