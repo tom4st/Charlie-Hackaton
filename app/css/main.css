@@ -32,12 +32,29 @@ html {
   font-size: 75%;
 }
 
-#name{
-  display: flex;
-  align-items: flex-end;
+.menu ul {
+  display: inline-flex;
+  margin: -20px;
+  margin-left: 50px;
 }
 
+.menu ul li{
+  list-style: none;
+  margin: 0 20px;
+}
 
+.nav-bar{
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.logo img{
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 150px;
+  height: 130px;
+}
 
 ::-moz-selection {
   background: #b3d4fc;
