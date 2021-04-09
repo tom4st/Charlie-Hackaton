@@ -8,30 +8,24 @@
     <h3>Tell us about you!</h3>
     <div class="row">
         <div class="col-sm-8">
-            <form class="form-horizontal" method="post">
-
-                <!-- since we are using same form for add and update,
-                  we need to bind id input field to customer object
-                  to avoid duplicating records on update -->
-                <input type="hidden"/>
+            <form class="form-horizontal" method="POST" action="/profiles.html">
                 <div class="form-group">
-                    <form action="/profile.html">
-                    
-                    <label class="col-sm-2 control-label">Username:</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control"/>
-                    </div>
-                    <label class="col-sm-2 control-label">Height:</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" name="height""/>
-                    </div>
-                    <label class="col-sm-2 control-label">Weight:</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" name="Weight"/>
-                    </div>
-                    <label class="col-sm-2 control-label">Fighting Style:</label>
+                        <label class="col-sm-2 control-label">Username:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="Username"/>
+                        </div>
 
-                    
+                        <label class="col-sm-2 control-label">Height:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="height"/>
+                        </div>
+
+                        <label class="col-sm-2 control-label">Weight:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="Weight"/>
+                        </div>
+
+                        <label class="col-sm-2 control-label">Fighting Style:</label>
                         <br><input type="checkbox" id="fightingStyle1" name="fightingStyle1" value="Karate">
                         <label for="fightingStyle1"> Karate</label><br>
                         <input type="checkbox" id="fightingStyle2" name="fightingStyle2" value="Judo">
@@ -39,10 +33,8 @@
                         <input type="checkbox" id="fightingStyle3" name="fightingStyle3" value="Taekwondo">
                         <label for="fightingStyle3"> Taekwondo</label><br>
                         <input type="checkbox" id="fightingStyle4" name="fightingStyle4" value="Street">
-                        <label for="fightingStyle4"> Street Style</label><br>
-                        <input type="checkbox" id="fightingStyle5" name="fightingStyle5" value="Street">
-                        <label for="fightingStyle4"> Street Style</label><br>
-                        <button type="submit" class="btn btn-primary" name="action" value="save">Submit</button>
+                        <label for="fightingStyle4"> Street Style</label><br><br>
+                        <input type="submit" value="Submit request"/>
                         <button type="cancel" class="btn btn-danger" name="action" value="cancel">Cancel</button>
                       </form>
                     </div>
@@ -51,6 +43,7 @@
         </div>
     </div>
 </div>
+<script src="main.js"></script>
 </body>
 </html>
 
